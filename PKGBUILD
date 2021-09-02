@@ -9,7 +9,7 @@ license=("custom")
 depends=(mingw-w64-libxml2 mingw-w64-libgcrypt)
 makedepends=(mingw-w64-configure git)
 options=(!strip staticlibs !buildflags !emptydirs)
-source=("git://git.gnome.org/libxslt#commit=$_commit"
+source=("git+https://gitlab.gnome.org/GNOME/libxslt#commit=$_commit"
 "libxslt-1.1.26-w64.patch"
 "libxslt.m4-libxslt-1.1.26.patch"
 "0003-fix-concurrent-directory-creation.all.patch")
